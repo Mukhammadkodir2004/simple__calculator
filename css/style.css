@@ -1,7 +1,7 @@
 
-body{
-    /* background-color: aqua; */
-}
+ body{
+    cursor: pointer;
+ }
 
 .hero{
     display: flex;
@@ -35,20 +35,36 @@ body{
     background-color: blue;
     padding:0 20px;
 }
+.btnPlus:active{
+  background-color: darkcyan;
+  cursor: pointer;
+}
 .btnMinus{
     font-size: 30px;
     background-color: red;
     padding:0 20px;
 }
+.btnMinus:active{
+    background-color: darkred;
+    cursor: pointer;
+
+}
 .btnMultiplication{
     font-size: 30px;
-    background-color: green;
+    background-color: darkolivegreen;
     padding:0 20px;
 }
+.btnMultiplication:active{
+    background-color: green;
+}
+
 .btnDivision{
     font-size: 30px;
     background-color: chocolate;
     padding:0 20px;
+}
+.btnDivision:active{
+    background-color:red ;
 }
 .text{
     /* text-align: start; */
@@ -61,12 +77,12 @@ body{
     font-size: 30px;
 }
 .firstNumber{
-    padding: 15px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 .secondNumber{
-    padding: 15px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 .total{
     font-size: 28px;
@@ -75,4 +91,8 @@ body{
     padding: 10px;
     border-radius: 15px;
     /* background-color: brown; */
+}
+input{
+    margin-bottom: 30px;
+    border: 1px solid black;
 }
